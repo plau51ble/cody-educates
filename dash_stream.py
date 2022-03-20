@@ -33,7 +33,10 @@ def substringSieve(string_list):
     return out
 
 from PIL import Image
-image = Image.open('/home/gatha/Pictures/cody/logo.png')
+import requests
+
+img_url = 'https://github.com/plau51ble/cody-educates/blob/1f37fb3e51f5c02629bcdcffa34757c6818e41d7/logo.png?raw=true'
+image = Image.open(requests.get(img_url, stream=True).raw)
 st.image(image)
 
 sidebar = st.sidebar
