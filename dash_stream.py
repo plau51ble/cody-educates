@@ -190,4 +190,4 @@ with st.expander("Show me more"):
 st.markdown("---")
 st.write("_We would now like to know your opinion about this page._")
 form_url = 'https://forms.gle/Cg1oVkCimphYMLAbA'
-st.write(f"[Sure! Take me to survey]({form_url})")
+st.write(f"[Sure! Take me to the feedback form.]({form_url})")
