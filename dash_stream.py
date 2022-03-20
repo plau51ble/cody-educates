@@ -191,7 +191,7 @@ st.markdown("---")
 st.write("_We would now like to know your opinion about this page._")
 if st.button('Sure! Take me to survey'):
     url = 'https://forms.gle/Cg1oVkCimphYMLAbA'
-    webbrowser.open_new_tab(url)
+    webbrowser.open(url)
     st.write('_Thank you!_')
 else:
      st.write('_Goodbye!_')
