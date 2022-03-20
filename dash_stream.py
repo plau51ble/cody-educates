@@ -1,5 +1,4 @@
-!sudo apt-get install tk
-
+import tk
 from turtle import title
 import streamlit as st
 from PIL import Image
