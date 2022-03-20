@@ -87,7 +87,7 @@ streamlit==1.7.0
 tenacity==8.0.1
 terminado==0.13.3
 testpath==0.6.0
-tk==0.1.0
+tk
 toml==0.10.2
 toolz==0.11.2
 tornado==6.1
